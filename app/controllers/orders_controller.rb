@@ -32,6 +32,6 @@ class OrdersController < ApplicationController
   private
 
   def order_params
-    params.permit(:order_id, :date, :status, :product_id, :cusomer_id)
+    params.permit(:order_id, :date, :status, :product_id, :customer_id)
   end
 end

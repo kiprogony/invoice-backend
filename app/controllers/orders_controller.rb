@@ -8,9 +8,9 @@ class OrdersController < ApplicationController
   def show
     order = Order.find_by(id: params[:id])
     if order
-      render json: power
+      render json: order
     else
-      render json: { error: Order nor found }, status: :not_found
+      render json: { error: "Order not found" }, status: :not_found
     end
   end
 

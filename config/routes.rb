@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   resources :customers, only: [:index, :show]
-  resources :orders, only: [:index, :show, :update]
+  resources :orders, only: [:index  ]
+  resources :products, only: [:index]
 end

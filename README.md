@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Invoicer App (Backend)
+ This is a system that allows managemene and generation of necessary invoices.The asmin logs in and keep track and also be  able to produce invoices.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ ## Technologies Used
+ Ruby on Rails for API development
+ Heroku for hosting

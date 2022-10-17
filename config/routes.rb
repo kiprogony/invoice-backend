@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   post "/Signup", to: "users#create"
   get "/me", to: "users#show"
   post "/login", to: "sessions#create"
+  
   resources :customers, only: [:index, :show]
   resources :orders, only: [:index  ]
   resources :products, only: [:index]
